@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+span{
+    color: white;
+}
+
+span:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.uno:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 1200px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5rem;
+    padding: 20px 0px;
+}
+
+.container-img{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.filter{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 85%;
+    border-radius: 1.5rem;
+    height: 100%;
+}
+
+
+.filter:hover{
+    background-color: hsl(178deg 100% 50% / 52%);
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container-img img{
+    width: 85%;
+    border-radius: 1.5rem;
+}
+
+.nft-description{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.nft-description h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 600;
+    margin-bottom: 15px;
+}
+
+.nft-description >p{
+    color: hsl(215, 51%, 70%);
+    font-family: 400;
+    margin-bottom: 15px;
+}
+
+.price-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 300;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.time{
+    color: hsl(215, 51%, 70%); ;
+}
+
+.price::before {
+    content: url(./images/icon-ethereum.svg);
+}
+
+.time::before{
+    content: url(./images/icon-clock.svg);
+}
+
+
+.author{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    padding-top: 15px;
+    border-top: 3px solid hsl(215, 32%, 27%);
+}
+
+.author p{
+    color:hsl(215, 51%, 70%); 
+    font-size: 300;
+    margin-left: 10px;
+}
+
+.author img{
+    width: 10%;
+    border-radius:50%;
+    border:2px solid white;
+}
+
