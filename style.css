@@ -61,15 +61,20 @@ span:hover{
     height: 100%;
 }
 
+svg{
+    display: none;
+}
 
 .filter:hover{
     background-color: hsl(178deg 100% 50% / 52%);
-    display: block;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
-
+.filter:hover svg{
+    display: block;
+}
 
 .container-img img{
     width: 85%;
